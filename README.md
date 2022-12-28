@@ -5,6 +5,10 @@ A command line driven script that reads a local CSV file from disk and outputs b
 # Installation
 Install action MetDesk (JC) uses `pip` and `setuptools` the recommended install method is as follows. 
 
+```
+pip install -i https://test.pypi.org/simple/ metdesk-jc
+```
+
 # Usage
 If a CSV file location is not specified Metdesk (JC) will look for a file called "data" in the same directory that it is run in.
 ```
@@ -31,16 +35,4 @@ Build the package locally
 ```py 
 py -m build
 pip install -e .
-```
-
-## Install the package
-
-```
-py setup.py install
-```
-
-## Build 
-
-```
-py -m build
 ```
